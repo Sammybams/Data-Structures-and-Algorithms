@@ -42,7 +42,7 @@ def sudoku_solver(array):
     """
     Function 'sudoku_solver' takes in a 9×9 array of numbers representing a Sudoku grid and returns a new grid with solution.
     """
-    options = [1,2,3,4,5,6,7,8,9]
+    options = range(1,10)
     to_check = []
     
     #Handling errors with input
